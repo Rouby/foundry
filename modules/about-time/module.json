@@ -2,16 +2,20 @@
   "name": "about-time",
   "title": "About Time",
   "description": "",
-  "version": "1.0.6",
   "author": "@tposney",
+  "authors": [],
+  "url": "https://gitlab.com/tposney/about-time",
+  "bugs": "https://gitlab.com/tposney/about-time/-/issues",
+  "flags": {},
+  "version": "1.0.6",
+  "minimumCoreVersion": "0.8.5",
+  "compatibleCoreVersion": "9.231",
   "scripts": [],
-  "esmodules": ["about-time.js"],
-  "styles": ["about-time.css"],
-  "packs": [],
-    "dependencies": [
-    {
-    "name": "foundryvtt-simple-calendar", "type": "module"
-    }
+  "esmodules": [
+    "about-time.js"
+  ],
+  "styles": [
+    "about-time.css"
   ],
   "languages": [
     {
@@ -54,7 +58,7 @@
       "name": "Italian",
       "path": "lang/it.json"
     },
-  	{
+    {
       "lang": "cn",
       "name": "中文",
       "path": "lang/cn.json"
@@ -65,12 +69,18 @@
       "path": "lang/zh-tw.json"
     }
   ],
-  "minimumCoreVersion": "0.8.5",
-  "compatibleCoreVersion": "9",
+  "packs": [],
+  "system": [],
+  "dependencies": [
+    {
+      "name": "foundryvtt-simple-calendar",
+      "type": "module"
+    }
+  ],
   "socket": true,
-  "bugs": "https://gitlab.com/tposney/about-time/-/issues",
-  "allowBugReporter": true,
-  "url": "https://gitlab.com/tposney/about-time",
   "manifest": "https://gitlab.com/tposney/about-time/raw/master/package/module.json",
-  "download": "https://gitlab.com/tposney/about-time/raw/master/package/about-time-v1.0.6.zip"
+  "download": "https://gitlab.com/tposney/about-time/raw/master/package/about-time-v1.0.6.zip",
+  "protected": false,
+  "coreTranslation": false,
+  "library": false
 }
