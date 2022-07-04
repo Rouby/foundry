@@ -1,0 +1,35 @@
+{
+    "name": "sequencer-jkase-database",
+    "title": "Sequencer JKASE Database",
+    "description": "A module that adds Sequencer functionality to Jack Kerouac's Animated Spell Effects modules.",
+    "version": "1.0.2",
+    "library": "false",
+    "manifestPlusVersion": "1.0.0",
+    "minimumCoreVersion": "9",
+    "compatibleCoreVersion": "9",
+    "authors": [
+        {
+            "name": "MrVauxs",
+            "discord": "MrVauxs#8622"
+        },
+        {
+            "name": "akrigline"
+        }
+    ],
+    "dependencies": [
+        {
+            "name": "sequencer"
+        },
+        {
+            "name": "socketlib"
+        }
+    ],
+    "scripts": [
+        "./scripts/module.js"
+    ],
+    "url": "https://github.com/MrVauxs/Sequencer-JKAE-Database",
+    "manifest": "https://github.com/MrVauxs/Sequencer-JKAE-Database/releases/latest/download/module.json",
+    "download": "https://github.com/MrVauxs/Sequencer-JKAE-Database/releases/download/1.0.2/module.zip",
+    "license": "LICENSE",
+    "readme": "README.md"
+}

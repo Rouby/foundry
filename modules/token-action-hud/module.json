@@ -13,7 +13,7 @@
     ],
     "url": "https://github.com/Drental/fvtt-tokenactionhud",
     "flags": {},
-    "version": "2.2.13",
+    "version": "2.2.19",
     "minimumCoreVersion": "9.236",
     "compatibleCoreVersion": "9",
     "scripts": [
@@ -106,12 +106,13 @@
         "dnd4e",
         "earthdawn4e",
         "gurps",
-        "space1889"
+        "space1889",
+        "CoC7"
     ],
     "dependencies": [],
     "socket": false,
     "manifest": "https://github.com/Drental/fvtt-tokenactionhud/releases/latest/download/module.json",
-    "download": "https://github.com/Drental/fvtt-tokenactionhud/releases/download/2.2.13/module.zip",
+    "download": "https://github.com/Drental/fvtt-tokenactionhud/releases/download/2.2.19/module.zip",
     "protected": false,
     "coreTranslation": false,
     "library": false

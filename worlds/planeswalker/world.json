@@ -14,8 +14,8 @@
   "dependencies": [],
   "socket": false,
   "protected": false,
-  "coreVersion": "9.255",
+  "coreVersion": "9.269",
   "resetKeys": false,
   "safeMode": false,
-  "systemVersion": "1.5.7"
+  "systemVersion": "1.6.3"
 }

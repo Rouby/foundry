@@ -1,6 +1,13 @@
-{"_id":"6yFSNzbMAr25MiJT","name":"Players","type":"Actor","parent":null,"sorting":"a","sort":100000,"color":null,"flags":{}}
+{"_id":"6yFSNzbMAr25MiJT","name":"Players","type":"Actor","parent":null,"sorting":"a","sort":300000,"color":null,"flags":{}}
 {"name":"Monsters","type":"Actor","parent":null,"sorting":"a","sort":0,"color":null,"flags":{},"_id":"8imLHKwNm4Ae0jWA"}
+{"_id":"BeETwYwCnt2waOcd","name":"Non-Players","type":"Actor","parent":null,"sorting":"m","sort":200000,"color":"","flags":{}}
 {"name":"Inside the Beast","type":"JournalEntry","parent":null,"sorting":"a","sort":0,"color":null,"flags":{},"_id":"Z5gG8zEPUsbdyeI9"}
 {"_id":"lCKr443fCSCf5IqT","name":"Tables","type":"RollTable","parent":null,"sorting":"m","sort":0,"color":"","flags":{}}
-{"name":"PGP","type":"JournalEntry","parent":null,"sorting":"a","sort":0,"color":null,"flags":{},"_id":"vQHrKAHTgVT23ACi"}
+{"name":"Archive","type":"Scene","parent":null,"sorting":"a","sort":0,"color":null,"flags":{},"_id":"qNE4xVairzzhNpG8"}
 {"_id":"vQHrKAHTgVT23ACi","name":"PGP","type":"JournalEntry","parent":null,"sorting":"a","sort":100000,"color":null,"flags":{}}
+{"name":"Traps","type":"Actor","parent":null,"sorting":"a","sort":0,"color":null,"flags":{},"_id":"fkRvjAM2F6UBQBA0"}
+{"name":"Archive","type":"JournalEntry","parent":null,"sorting":"a","sort":0,"color":null,"flags":{},"_id":"lYlrsyeQ0NRHjEYS"}
+{"name":"NPC","type":"JournalEntry","parent":null,"sorting":"a","sort":0,"color":null,"flags":{},"_id":"viC4zqqTOQg2BhLJ"}
+{"name":"Oskistan","type":"Scene","parent":null,"sorting":"a","sort":0,"color":null,"flags":{},"_id":"L2Gt2foSJzKkjPnN"}
+{"name":"Items","type":"Item","parent":null,"sorting":"a","sort":0,"color":null,"flags":{},"_id":"uD2Q89PR4EQVpwou"}
+{"_id":"Z5gG8zEPUsbdyeI9","name":"Inside the Beast","type":"JournalEntry","parent":"lYlrsyeQ0NRHjEYS","sorting":"a","sort":100000,"color":null,"flags":{}}

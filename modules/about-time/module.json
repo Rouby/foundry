@@ -9,7 +9,7 @@
   "flags": {},
   "version": "1.0.6",
   "minimumCoreVersion": "0.8.5",
-  "compatibleCoreVersion": "9.231",
+  "compatibleCoreVersion": "9",
   "scripts": [],
   "esmodules": [
     "about-time.js"
