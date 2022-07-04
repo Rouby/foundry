@@ -2,7 +2,7 @@
     "name": "polyglot",
     "title": "Polyglot",
     "description": "Talk to others using a language you can speak and scrambles text you can't understand, in several fantasy scripts.",
-    "version": "1.7.39",
+    "version": "1.7.40",
     "author": [
         "MClemente",
         "KaKaRoTo",
@@ -14,6 +14,12 @@
             "discord": "mclemente#5524",
             "ko-fi": "mclemente",
             "patreon": "mclemente"
+        },
+        {
+            "name": "KaKaRoTo"
+        },
+        {
+            "name": "elizeuangelo"
         }
     ],
     "esmodules": [
@@ -68,7 +74,7 @@
     ],
     "url": "https://github.com/League-of-Foundry-Developers/fvtt-module-polyglot",
     "manifest": "https://github.com/League-of-Foundry-Developers/fvtt-module-polyglot/releases/latest/download/module.json",
-    "download": "https://github.com/League-of-Foundry-Developers/fvtt-module-polyglot/releases/download/1.7.39/module.zip",
+    "download": "https://github.com/League-of-Foundry-Developers/fvtt-module-polyglot/releases/download/1.7.40/module.zip",
     "minimumCoreVersion": "0.8.5",
     "compatibleCoreVersion": "9",
     "bugs": "https://github.com/League-of-Foundry-Developers/fvtt-module-polyglot/issues",
