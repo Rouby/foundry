@@ -1,29 +1,29 @@
 {
-    "name": "animated-spell-effects",
-    "title": "Jack Kerouac's Animated Spell Effects",
-    "description": "More than 350 (and growing!) animated effects for spells for use with various VTT's in the top-down/overhead perspective. All files are in transparent webm format. If you like my work, consider saying thanks on Discord: jackkerouac#0624.",
-    "authors": [
-        {
-            "name": "Jack Kerouac",
-            "url": "https://github.com/jackkerouac/",
-            "discord": "jackkerouac#0624."
-        }
-    ],
-    "dependencies": [],
-    "conflicts": [],
-    "esmodules": [],
-    "scripts": [],
-    "styles": [],
-    "media": [
-        {
-            "type": "icon",
-            "url": "https://avatars2.githubusercontent.com/u/341093?s=460&v=4"
-        }
-    ],
-    "version": "0.6.8",
-    "minimumCoreVersion": "0.5.5",
-    "compatibleCoreVersion": "0.7.9",
-    "url": "https://github.com/jackkerouac/animated-spell-effects",
-    "manifest": "https://github.com/jackkerouac/animated-spell-effects/releases/latest/download/module.json",
-    "download": "https://github.com/jackkerouac/animated-spell-effects/releases/download/0.6.8/module.zip"
+  "title": "Jack Kerouac's Animated Spell Effects",
+  "description": "More than 350 (and growing!) animated effects for spells for use with various VTT's in the top-down/overhead perspective. All files are in transparent webm format. If you like my work, consider saying thanks on Discord: jackkerouac#0624.",
+  "authors": [
+    {
+      "name": "Jack Kerouac",
+      "url": "https://github.com/jackkerouac/",
+      "discord": "jackkerouac#0624.",
+      "flags": {}
+    }
+  ],
+  "media": [
+    {
+      "type": "icon",
+      "url": "https://avatars2.githubusercontent.com/u/341093?s=460&v=4",
+      "loop": false,
+      "flags": {}
+    }
+  ],
+  "version": "0.6.8",
+  "url": "https://github.com/jackkerouac/animated-spell-effects",
+  "manifest": "https://github.com/jackkerouac/animated-spell-effects/releases/latest/download/module.json",
+  "download": "https://github.com/jackkerouac/animated-spell-effects/releases/download/0.6.8/module.zip",
+  "id": "animated-spell-effects",
+  "compatibility": {
+    "minimum": "0.5.5",
+    "verified": "0.7.9"
+  }
 }

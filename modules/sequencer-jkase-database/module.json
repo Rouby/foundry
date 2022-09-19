@@ -1,12 +1,9 @@
 {
     "name": "sequencer-jkase-database",
-    "title": "Sequencer JKASE Database",
+    "title": "Jack Kerouac's Spell Effects Sequencer Plugin",
     "description": "A module that adds Sequencer functionality to Jack Kerouac's Animated Spell Effects modules.",
-    "version": "1.0.2",
+    "version": "1.1.1",
     "library": "false",
-    "manifestPlusVersion": "1.0.0",
-    "minimumCoreVersion": "9",
-    "compatibleCoreVersion": "9",
     "authors": [
         {
             "name": "MrVauxs",
@@ -16,20 +13,70 @@
             "name": "akrigline"
         }
     ],
-    "dependencies": [
-        {
-            "name": "sequencer"
-        },
-        {
-            "name": "socketlib"
-        }
-    ],
     "scripts": [
         "./scripts/module.js"
     ],
+    "compatibility": {
+        "minimum": 9,
+        "verified": 10,
+        "maximum": 10
+    },
+    "manifestPlusVersion": "1.2.1",
     "url": "https://github.com/MrVauxs/Sequencer-JKAE-Database",
     "manifest": "https://github.com/MrVauxs/Sequencer-JKAE-Database/releases/latest/download/module.json",
-    "download": "https://github.com/MrVauxs/Sequencer-JKAE-Database/releases/download/1.0.2/module.zip",
+    "download": "https://github.com/MrVauxs/Sequencer-JKAE-Database/releases/download/1.1.1/module.zip",
     "license": "LICENSE",
-    "readme": "README.md"
+    "readme": "README.md",
+    "dependencies": [
+        {
+            "name": "sequencer",
+            "type": "module",
+            "manifest": "https://github.com/fantasycalendar/FoundryVTT-Sequencer/releases/latest/download/module.json"
+        },
+        {
+            "name": "socketlib",
+            "type": "module",
+            "manifest": "https://raw.githubusercontent.com/manuelVo/foundryvtt-socketlib/develop/module.json"
+        },
+        {
+            "id": "animated-spell-effects",
+            "type": "module",
+            "manifest": "https://raw.githubusercontent.com/jackkerouac/animated-spell-effects/master/module.json"
+        },
+        {
+            "id": "animated-spell-effects-cartoon",
+            "type": "module",
+            "manifest": "https://raw.githubusercontent.com/jackkerouac/animated-spell-effects-cartoon/main/module.json"
+        }
+    ],
+    "relationships": {
+        "systems": [],
+        "requires": [
+            {
+                "id": "sequencer",
+                "type": "module",
+                "manifest": "https://github.com/fantasycalendar/FoundryVTT-Sequencer/releases/latest/download/module.json",
+                "compatibility": {}
+            },
+            {
+                "id": "socketlib",
+                "type": "module",
+                "manifest": "https://raw.githubusercontent.com/manuelVo/foundryvtt-socketlib/develop/module.json",
+                "compatibility": {}
+            },
+            {
+                "id": "animated-spell-effects",
+                "type": "module",
+                "manifest": "https://raw.githubusercontent.com/jackkerouac/animated-spell-effects/master/module.json",
+                "compatibility": {}
+            },
+            {
+                "id": "animated-spell-effects-cartoon",
+                "type": "module",
+                "manifest": "https://raw.githubusercontent.com/jackkerouac/animated-spell-effects-cartoon/main/module.json",
+                "compatibility": {}
+            }
+        ],
+        "conflicts": []
+    }
 }
