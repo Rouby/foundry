@@ -4,8 +4,11 @@
     "description": "Creates a HUD showing a selected token's common actions.",
     "authors": [
         {
-            "name": "Drental",
-            "email": "tah@crumblinggiant.com"
+            "name": "Larkinabout",
+            "url": "https://github.com/Larkinabout"
+        },
+        {
+            "name": "Drental"
         },
         {
             "name": "^ and stick"
@@ -13,16 +16,17 @@
     ],
     "url": "https://github.com/Drental/fvtt-tokenactionhud",
     "flags": {},
-    "version": "3.0.6",
+    "version": "3.0.12",
     "compatibility": {
         "minimum": "10",
-        "verified": "10.285"
+        "verified": "10.288"
     },
     "scripts": [
         "./lib/tagify/tagify.min.js",
         "./scripts/bundle.min.js"
     ],
     "styles": [
+        "./styles/tah-compact.css",
         "./styles/token-action-hud.css",
         "./styles/tah-dorako.css",
         "./styles/lib/tagify/tagify.css"
@@ -207,15 +211,33 @@
                 "type": "system"
             }
         ],
-        "requires": [
+        "requires": [],
+        "optional": [
             {
-                "id": "color-picker"
+                "id": "color-picker",
+                "reason": "To set colors within this module's settings. If both modules are enabled, Token Action HUD will use color-picker"
+            },
+            {
+                "id": "colorsettings",
+                "reason": "To set colors within this module's settings. If both modules are enabled, Token Action HUD will use color-picker"
             }
-        ]
+        ],
+        "flags": {
+            "optional": [
+                {
+                    "id": "color-picker",
+                    "reason": "To set colors within this module's settings. If both modules are enabled, Token Action HUD will use color-picker"
+                },
+                {
+                    "id": "colorsettings",
+                    "reason": "To set colors within this module's settings. If both modules are enabled, Token Action HUD will use color-picker"
+                }
+            ]
+        }
     },
     "socket": false,
     "manifest": "https://github.com/Drental/fvtt-tokenactionhud/releases/latest/download/module.json",
-    "download": "https://github.com/Drental/fvtt-tokenactionhud/releases/download/3.0.6/module.zip",
+    "download": "https://github.com/Drental/fvtt-tokenactionhud/releases/download/3.0.12/module.zip",
     "protected": false,
     "coreTranslation": false,
     "library": false

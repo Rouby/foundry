@@ -1,19 +1,28 @@
 {
-    "name": "milbys-maps-patrons-module-2",
-    "title": "Milby's Maps Patrons' Module 2",
-    "description": "More maps of imaginary places. And a few real ones.",
-    "version": "1.3.2",
-    "author": "Matt Milby",
-    "minimumCoreVersion": "0.8.6",
-    "compatibleCoreVersion": "1.0.0",
-    "packs": [
-        {
-            "name": "milbys-maps-patrons-module-2",
-            "label": "Milby's Maps Patrons' Module 2",
-            "path": "packs/milbys-maps-patrons-module-2.db",
-            "entity": "Scene"
-        }
-    ],
-    "manifest": "http://modules.milbysmaps.com/MMP2ModuleUpload/module.json",
-    "download": "http://modules.milbysmaps.com/MMP2ModuleUpload/milbys-maps-patrons-module-2.zip"
+  "title": "Milby's Maps Patrons' Module 2",
+  "description": "More maps of imaginary places. And a few real ones.",
+  "version": "1.3.5",
+  "packs": [
+    {
+      "name": "milbys-maps-patrons-module-2",
+      "label": "Milby's Maps Patrons' Module 2",
+      "path": "packs/milbys-maps-patrons-module-2.db",
+      "type": "Scene",
+      "private": false,
+      "flags": {}
+    }
+  ],
+  "manifest": "http://modules.milbysmaps.com/MMP2ModuleUpload/module.json",
+  "download": "http://modules.milbysmaps.com/MMP2ModuleUpload/milbys-maps-patrons-module-2.zip",
+  "id": "milbys-maps-patrons-module-2",
+  "authors": [
+    {
+      "name": "Matt Milby",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "0.8.6",
+    "verified": "1.2.0"
   }
+}

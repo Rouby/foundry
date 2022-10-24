@@ -1,31 +1,30 @@
 {
-    "name": "soundfxlibrary",
-    "title": "SoundFx Library",
-    "description": "Library of sound effects that can be used in soundboards.",
-    "version": "1.0.2",
-    "author": "CDeenen",
-    "authors": [
-        {
-            "name": "CDeenen"
-        }
-      ],
-    "minimumCoreVersion": "0.6.0",
-    "compatibleCoreVersion": "10",
-    "compatibility": {
-        "minimum": "0.6",
-        "verified": "10"
-    },
-    "url": "https://github.com/CDeenen/SoundFxLibrary",
-    "languages": [
-        {
-            "lang": "en",
-            "name": "English",
-            "path": "lang/en.json"
-        }
-    ],
-    "scripts": [
-        "packRegistry.js"
-    ],
-    "manifest": "https://raw.githubusercontent.com/CDeenen/SoundFxLibrary/master/module.json",
-    "download": "https://github.com/CDeenen/SoundFxLibrary/archive/master.zip"
+  "title": "SoundFx Library",
+  "description": "Library of sound effects that can be used in soundboards.",
+  "version": "1.0.2",
+  "authors": [
+    {
+      "name": "CDeenen",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "0.6",
+    "verified": "10"
+  },
+  "url": "https://github.com/CDeenen/SoundFxLibrary",
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    }
+  ],
+  "scripts": [
+    "packRegistry.js"
+  ],
+  "manifest": "https://raw.githubusercontent.com/CDeenen/SoundFxLibrary/master/module.json",
+  "download": "https://github.com/CDeenen/SoundFxLibrary/archive/master.zip",
+  "id": "soundfxlibrary"
 }

@@ -2,7 +2,12 @@
 	"id": "times-up",
 	"title": "Times Up",
 	"description": "Active expiry expiration",
-	"version": "10.0.1",
+	"version": "10.0.2",
+  "compatibility": {
+		"minimum": 10,
+		"verified": 10,
+		"maximum": 10
+	},
 	"authors": [{ "name": "tposney" }],
 	"scripts": [],
 	"esmodules": ["times-up.js"],
@@ -21,11 +26,6 @@
 			"path": "lang/en.json"
 		}
 	],
-	"compatibility": {
-		"minimum": 10,
-		"verified": 10,
-		"maximum": 10
-	},
 	"license": "",
 	"readme": "https://gitlab.com/tposney/times-up/raw/master/Readme.md",
 	"bugs": "https://gitlab.com/tposney/times-up/-/issues",
@@ -34,5 +34,5 @@
 	"socket": true,
 	"url": "https://gitlab.com/tposney/times-up",
 	"manifest": "https://gitlab.com/tposney/times-up/raw/v10/package/module.json",
-	"download": "https://gitlab.com/tposney/times-up/raw/v10/package/times-up-v10.0.1.zip"
+	"download": "https://gitlab.com/tposney/times-up/raw/v10/package/times-up-v10.0.2.zip"
 }
