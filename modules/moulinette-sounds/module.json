@@ -1,0 +1,48 @@
+{
+  "title": "Moulinette Sounds & SoundPad (module)",
+  "description": "This module for Moulinette adds capabilities for managing your sounds and create a soundpad.",
+  "url": "https://github.com/SvenWerlen/moulinette-sounds",
+  "version": "10.1.2",
+  "esmodules": [
+    "moulinette-sounds.js"
+  ],
+  "styles": [
+    "moulinette-sounds.css"
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "flags": {}
+    },
+    {
+      "lang": "fr",
+      "name": "French",
+      "path": "lang/fr.json",
+      "flags": {}
+    },
+    {
+      "lang": "ja",
+      "name": "日本語",
+      "path": "lang/ja.json",
+      "flags": {}
+    }
+  ],
+  "manifest": "https://raw.githubusercontent.com/SvenWerlen/moulinette-sounds/master/module.json",
+  "download": "https://github.com/SvenWerlen/moulinette-sounds/archive/v-10.1.2.zip",
+  "id": "moulinette-sounds",
+  "relationships": {
+    "requires": [
+      {
+        "id": "moulinette-core",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10"
+  }
+}

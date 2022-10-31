@@ -2,13 +2,13 @@
   "title": "Planeswalker",
   "version": "1.0.0",
   "system": "dnd5e",
-  "coreVersion": "10.285",
+  "coreVersion": "10.288",
   "resetKeys": false,
   "safeMode": false,
   "systemVersion": "2.0.3",
   "id": "planeswalker",
   "compatibility": {
     "minimum": "10",
-    "verified": "10.285"
+    "verified": "10.288"
   }
 }

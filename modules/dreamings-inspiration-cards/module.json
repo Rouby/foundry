@@ -35,7 +35,8 @@
       "path": "packs/dreamings-inspiration-cards-rules.db",
       "type": "JournalEntry",
       "private": false,
-      "flags": {}
+      "flags": {},
+      "system": "dnd5e"
     },
     {
       "name": "dreamings-inspiration-cards-rolltable",
@@ -43,7 +44,8 @@
       "path": "packs/dreamings-inspiration-cards-rolltable",
       "type": "RollTable",
       "private": false,
-      "flags": {}
+      "flags": {},
+      "system": "dnd5e"
     }
   ],
   "url": "https://github.com/DreamingHero1997/Dreaming-s-Inspiration-Cards",
