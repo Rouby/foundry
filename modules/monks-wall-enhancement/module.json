@@ -6,8 +6,7 @@
     {
       "name": "IronMonk",
       "discord": "ironmonk88#4075",
-	  "patreon": "https://www.patreon.com/ironmonk",
-      "ko-fi": "https://ko-fi.com/ironmonk88"
+      "flags": {}
     }
   ],
   "socket": true,
@@ -15,17 +14,20 @@
     {
       "lang": "en",
       "name": "English",
-      "path": "lang/en.json"
+      "path": "lang/en.json",
+      "flags": {}
     },
     {
       "lang": "ja",
       "name": "日本語",
-      "path": "lang/ja.json"
+      "path": "lang/ja.json",
+      "flags": {}
     },
     {
       "lang": "es",
       "name": "Español",
-      "path": "lang/es.json"
+      "path": "lang/es.json",
+      "flags": {}
     }
   ],
   "esmodules": [
@@ -39,13 +41,9 @@
   "download": "https://github.com/ironmonk88/monks-wall-enhancement/archive/10.3.zip",
   "manifest": "https://github.com/ironmonk88/monks-wall-enhancement/releases/latest/download/module.json",
   "bugs": "https://github.com/ironmonk88/monks-wall-enhancement/issues",
-  "allowBugReporter": true,
   "id": "monks-wall-enhancement",
   "compatibility": {
     "minimum": "10",
     "verified": "10"
-  },
-  "name": "monks-wall-enhancement",
-  "minimumCoreVersion": "10",
-  "compatibleCoreVersion": "10"
+  }
 }

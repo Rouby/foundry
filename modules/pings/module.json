@@ -4,14 +4,14 @@
   "id": "pings",
   "authors": [
     {
-      "name": "Azzurite#2004"
+      "name": "Azzurite#2004",
+      "flags": {}
     }
   ],
   "title": "Pings",
   "compatibility": {
     "minimum": "9",
-    "verified": "10",
-    "maximum": "10"
+    "verified": "10"
   },
   "esmodules": [
     "main.js"
@@ -20,26 +20,33 @@
     {
       "lang": "en",
       "name": "English",
-      "path": "languages/en.json"
+      "path": "languages/en.json",
+      "flags": {}
     },
     {
       "lang": "pt-BR",
       "name": "Português (Brasil)",
-      "path": "languages/pt-BR.json"
+      "path": "languages/pt-BR.json",
+      "flags": {}
     },
     {
       "lang": "ja",
       "name": "日本語",
-      "path": "languages/ja.json"
+      "path": "languages/ja.json",
+      "flags": {}
     }
   ],
   "relationships": {
     "requires": [
       {
-        "id": "settings-extender"
+        "id": "settings-extender",
+        "type": "module",
+        "compatibility": {}
       },
       {
-        "id": "lib-wrapper"
+        "id": "lib-wrapper",
+        "type": "module",
+        "compatibility": {}
       }
     ]
   },

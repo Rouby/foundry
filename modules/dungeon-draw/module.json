@@ -5,7 +5,8 @@
   "version": "1.2.1",
   "compatibility": {
     "minimum": "10",
-    "verified": "10"
+    "verified": "10",
+    "maximum": "10"
   },
   "esmodules": [
     "modules/dungeondraw-bundle.min.js"
