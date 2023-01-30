@@ -38,5 +38,3 @@
 {"name":"Cze and Peku","type":"Scene","folder":"ftp9IzMmlHsGfsar","description":"","sorting":"a","sort":0,"color":null,"flags":{},"_stats":{"systemId":null,"systemVersion":null,"coreVersion":null,"createdTime":null,"modifiedTime":null,"lastModifiedBy":null},"_id":"vfce5QoUT6NP2qfR"}
 {"name":"NPC","type":"JournalEntry","sorting":"a","sort":0,"color":null,"flags":{},"_id":"viC4zqqTOQg2BhLJ","folder":null,"description":"","_stats":{"systemId":null,"systemVersion":null,"coreVersion":null,"createdTime":null,"modifiedTime":null,"lastModifiedBy":null}}
 {"name":"Flasks","sorting":"a","folder":null,"type":"Item","description":"","sort":0,"color":null,"flags":{},"_stats":{"systemId":null,"systemVersion":null,"coreVersion":null,"createdTime":null,"modifiedTime":null,"lastModifiedBy":null},"_id":"zLVLOk9XJBX5Kydj"}
-{"name":"Temp","color":null,"description":"","flags":{},"sort":0,"sorting":"a","type":"Actor","folder":null,"_stats":{"systemId":null,"systemVersion":null,"coreVersion":null,"createdTime":null,"modifiedTime":null,"lastModifiedBy":null},"_id":"3rjQ2IYZDbCMOLhs"}
-{"$$deleted":true,"_id":"3rjQ2IYZDbCMOLhs"}
