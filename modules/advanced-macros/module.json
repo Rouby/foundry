@@ -1,40 +1,69 @@
 {
-    "name": "advanced-macros",
+    "id": "advanced-macros",
     "title": "Advanced Macros",
     "description": "Use handlebars templating, recursive macro calls and call macros with arguments or directly from chat.",
-    "author": "KaKaRoTo",
-    "authors": [],
-    "url": "https://github.com/League-of-Foundry-Developers/fvtt-advanced-macros",
-    "flags": {},
-    "version": "v1.15",
-    "minimumCoreVersion": "9",
-    "compatibleCoreVersion": "9",
-    "scripts": [
-        "libs/hljs/highlight.pack.js",
-        "libs/tokenizer.min.js",
-        "module/Patches.js",
-        "Macros.js"
+    "version": "1.19.3",
+    "authors": [
+        {
+            "name": "mclemente",
+            "url": "https://github.com/mclemente",
+            "discord": "mclemente#5524",
+            "github": "mclemente"
+        },
+        {
+            "name": "p4535992",
+            "url": "https://github.com/p4535992",
+            "discord": "",
+            "twitter": "",
+            "patreon": "",
+            "github": "p4535992",
+            "ko-fi": "",
+            "reddit": "",
+            "email": ""
+        }
     ],
-    "esmodules": [],
-    "styles": [
-        "Macros.css",
-        "libs/hljs/styles/github-gist.css"
+    "type": "module",
+    "includes": [
+        "./assets/**",
+        "./lang/**",
+        "./languages/**",
+        "./scripts/**",
+        "./styles/**",
+        "./templates/**",
+        "./module.json",
+        "./README.md",
+        "./icons/**",
+        "./packs/**"
+    ],
+    "media": [
+        {
+            "type": "icon",
+            "location": ""
+        },
+        {
+            "type": "cover",
+            "location": ""
+        },
+        {
+            "type": "screenshot",
+            "location": ""
+        }
     ],
     "languages": [
         {
             "lang": "en",
             "name": "English",
-            "path": "lang/en.json"
+            "path": "languages/en.json"
         },
         {
             "lang": "fr",
             "name": "Français (French)",
-            "path": "lang/fr.json"
+            "path": "languages/fr.json"
         },
         {
             "lang": "cn",
             "name": "中文 (Chinese)",
-            "path": "lang/cn.json"
+            "path": "languages/cn.json"
         }
     ],
     "packs": [
@@ -42,16 +71,47 @@
             "name": "macros",
             "label": "Advanced Macros",
             "path": "packs/macros.db",
-            "private": false,
+            "private": true,
             "type": "Macro"
         }
     ],
-    "system": [],
-    "dependencies": [],
     "socket": true,
-    "library": true,
+    "scripts": [
+        "scripts/lib/tokenizer.min.js"
+    ],
+    "esmodules": [
+        "main.js"
+    ],
+    "styles": [],
+    "compatibility": {
+        "minimum": 10,
+        "verified": 10,
+        "maximum": 10
+    },
+    "manifestPlusVersion": "1.2.1",
+    "url": "https://github.com/League-of-Foundry-Developers/fvtt-advanced-macros",
     "manifest": "https://github.com/League-of-Foundry-Developers/fvtt-advanced-macros/releases/latest/download/module.json",
-    "download": "https://github.com/League-of-Foundry-Developers/fvtt-advanced-macros/releases/download/v1.15/module.zip",
-    "protected": false,
-    "coreTranslation": false
+    "download": "https://github.com/League-of-Foundry-Developers/fvtt-advanced-macros/releases/download/v1.19.3/module.zip",
+    "readme": "https://github.com/League-of-Foundry-Developers/fvtt-advanced-macros/blob/v1.19.3/README.md",
+    "changelog": "https://github.com/League-of-Foundry-Developers/fvtt-advanced-macros/blob/v1.19.3/CHANGELOG.md",
+    "bugs": "https://github.com/League-of-Foundry-Developers/fvtt-advanced-macros/issues",
+    "allowBugReporter": true,
+    "relationships": {
+        "systems": [],
+        "requires": [
+            {
+                "id": "lib-wrapper",
+                "type": "module",
+                "manifest": "https://github.com/ruipin/fvtt-lib-wrapper/releases/latest/download/module.json",
+                "compatibility": {}
+            },
+            {
+                "id": "socketlib",
+                "type": "module",
+                "manifest": "https://raw.githubusercontent.com/manuelVo/foundryvtt-socketlib/develop/module.json",
+                "compatibility": {}
+            }
+        ],
+        "conflicts": []
+    }
 }

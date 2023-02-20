@@ -1,0 +1,27 @@
+{
+  "title": "Loot Sheet NPC 5e (Simple Version)",
+  "description": "This module adds an additional NPC sheet which can be used for loot containers such as chests or shopkeepers.",
+  "version": "5.0.2",
+  "esmodules": [
+    "/lootsheet-simple.js"
+  ],
+  "styles": [
+    "/css/lootsheet-simple.css"
+  ],
+  "socket": true,
+  "url": "https://github.com/jopeek/fvtt-loot-sheet-npc-5e",
+  "manifest": "https://raw.githubusercontent.com/jopeek/fvtt-loot-sheet-npc-5e/lootsheet-simple/module.json",
+  "download": "https://github.com/jopeek/fvtt-loot-sheet-npc-5e/archive/lootsheet-simple.zip",
+  "id": "lootsheet-simple",
+  "authors": [
+    {
+      "name": "Jan Ole Peek (ChalkOne)",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "10",
+    "verified": "10.291",
+    "maximum": "10"
+  }
+}

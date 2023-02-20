@@ -1,22 +1,18 @@
 {
-  "name": "about-time",
+  "id": "about-time",
   "title": "About Time",
   "description": "",
-  "author": "@tposney",
-  "authors": [],
-  "url": "https://gitlab.com/tposney/about-time",
-  "bugs": "https://gitlab.com/tposney/about-time/-/issues",
-  "flags": {},
-  "version": "1.0.6",
-  "minimumCoreVersion": "0.8.5",
-  "compatibleCoreVersion": "9",
+  "version": "10.0.1",
+  "authors": [{ "name": "tposney" }],
   "scripts": [],
-  "esmodules": [
-    "about-time.js"
-  ],
-  "styles": [
-    "about-time.css"
-  ],
+  "esmodules": ["about-time.js"],
+  "styles": [],
+  "packs": [],
+  "relationsships": {
+    "requires": [
+    { "id": "foundryvtt-simple-calendar", "type": "module" }
+    ]
+  },
   "languages": [
     {
       "lang": "en",
@@ -58,7 +54,7 @@
       "name": "Italian",
       "path": "lang/it.json"
     },
-    {
+  	{
       "lang": "cn",
       "name": "中文",
       "path": "lang/cn.json"
@@ -69,18 +65,15 @@
       "path": "lang/zh-tw.json"
     }
   ],
-  "packs": [],
-  "system": [],
-  "dependencies": [
-    {
-      "name": "foundryvtt-simple-calendar",
-      "type": "module"
-    }
-  ],
+	"compatibility": {
+		"minimum": 10,
+		"verified": 10,
+		"maximum": 10
+	},
   "socket": true,
+  "bugs": "https://gitlab.com/tposney/about-time/-/issues",
+  "allowBugReporter": true,
+  "url": "https://gitlab.com/tposney/about-time",
   "manifest": "https://gitlab.com/tposney/about-time/raw/master/package/module.json",
-  "download": "https://gitlab.com/tposney/about-time/raw/master/package/about-time-v1.0.6.zip",
-  "protected": false,
-  "coreTranslation": false,
-  "library": false
+  "download": "https://gitlab.com/tposney/about-time/raw/master/package/about-time-v10.0.1.zip"
 }

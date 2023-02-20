@@ -8,7 +8,7 @@
       "flags": {}
     }
   ],
-  "version": "10.0.14",
+  "version": "10.0.20",
   "compatibility": {
     "minimum": "10.279",
     "verified": "10.286",
@@ -54,9 +54,9 @@
       "name": "premadeitems",
       "label": "Premade Items",
       "path": "packs/premadeitems.db",
+      "private": false,
       "type": "Item",
       "system": "dnd5e",
-      "private": false,
       "flags": {}
     }
   ],
@@ -108,5 +108,5 @@
   "url": "https://gitlab.com/tposney/dae",
   "bugs": "https://gitlab.com/tposney/dae/-/issues",
   "manifest": "https://gitlab.com/tposney/dae/raw/v10/package/module.json",
-  "download": "https://gitlab.com/tposney/dae/raw/v10/package/dae-v10.0.14.zip"
+  "download": "https://gitlab.com/tposney/dae/raw/v10/package/dae-v10.0.20.zip"
 }
