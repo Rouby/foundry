@@ -5,7 +5,7 @@
   "coreVersion": "10.291",
   "resetKeys": false,
   "safeMode": false,
-  "systemVersion": "2.1.4",
+  "systemVersion": "2.1.5",
   "id": "planeswalker",
   "compatibility": {
     "minimum": "10",

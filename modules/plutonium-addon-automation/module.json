@@ -1,0 +1,93 @@
+{
+	"id": "plutonium-addon-automation",
+	"title": "Plutonium Addon: Automation",
+	"description": "Plutonium automations for use with Midi-QOL, DAE, and friends.",
+	"version": "0.4.1",
+	"authors": [
+		{
+			"name": "Giddy",
+			"url": "https://www.patreon.com/Giddy5e",
+			"discord": "Giddy#0001"
+		},
+		{
+			"name": "Spappz",
+			"discord": "spap#9812"
+		}
+	],
+	"readme": "README.md",
+	"license": "MIT",
+	"manifest": "https://github.com/TheGiddyLimit/plutonium-addon-automation/releases/latest/download/module.json",
+	"download": "https://github.com/TheGiddyLimit/plutonium-addon-automation/releases/download/v0.4.1/plutonium-addon-automation.zip",
+	"bugs": "https://discord.gg/nGvRCDs",
+	"compatibility": {
+		"minimum": "10",
+		"verified": "10.291"
+	},
+	"url": "https://www.patreon.com/Giddy5e",
+	"relationships": {
+		"requires": [
+			{
+				"id": "midi-qol",
+				"type": "module",
+				"manifest": "https://gitlab.com/tposney/midi-qol/raw/v10/package/module.json"
+			},
+			{
+				"id": "dae",
+				"type": "module",
+				"manifest": "https://gitlab.com/tposney/dae/raw/v10/package/module.json"
+			},
+			{
+				"id": "times-up",
+				"type": "module",
+				"manifest": "https://gitlab.com/tposney/times-up/raw/v10/package/module.json"
+			},
+			{
+				"id": "dfreds-convenient-effects",
+				"type": "module",
+				"manifest": "https://github.com/DFreds/dfreds-convenient-effects/releases/latest/download/module.json"
+			}
+		],
+		"conflicts": [
+			{
+				"id": "combat-utility-belt",
+				"type": "module",
+				"reason": "Redundant when used with Plutonium Addon: Automation module dependencies, and often conflicts with them."
+			},
+			{
+				"id": "betterrolls5e",
+				"type": "module",
+				"reason": "May cause issues with features which require rolls; use with caution."
+			},
+			{
+				"id": "mars-5e",
+				"type": "module",
+				"reason": "May cause issues with features which require rolls; use with caution."
+			},
+			{
+				"id": "mre-dnd5e",
+				"type": "module",
+				"reason": "May cause issues with features which require rolls; use with caution."
+			},
+			{
+				"id": "ready-set-roll-5e",
+				"type": "module",
+				"reason": "May cause issues with features which require rolls; use with caution."
+			},
+			{
+				"id": "wire",
+				"type": "module",
+				"reason": "May cause issues with features which require rolls; use with caution."
+			}
+		]
+	},
+	"esmodules": [
+		"./js/Bundle.js"
+	],
+	"languages": [
+		{
+			"lang": "en",
+			"name": "English",
+			"path": "lang/en.json"
+		}
+	]
+}
