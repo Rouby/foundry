@@ -1,12 +1,7 @@
 {
-  "name": "animated-spell-effects-cartoon",
   "title": "Jack Kerouac's Animated Spell Effects: Cartoon",
   "description": "Cartoony animated effects for spells for use with various VTT's in the top-down/overhead perspective. All files are in transparent webm format. If you like my work, consider saying thanks on Discord: jackkerouac#0624.",
   "version": "0.4.5",
-  "minimumCoreVersion": "0.5.5",
-  "compatibleCoreVersion": "10.291",
-  "author": "Jack Kerouac",
-  "dependencies": [],
   "esmodules": [
     "scripts/sequencer-db.js"
   ],
@@ -30,16 +25,26 @@
       "flags": {}
     }
   ],
-  "scripts": [],
-  "styles": [],
   "media": [
     {
       "type": "icon",
-      "url": "https://avatars2.githubusercontent.com/u/341093?s=460&v=4"
+      "url": "https://avatars2.githubusercontent.com/u/341093?s=460&v=4",
+      "loop": false,
+      "flags": {}
     }
   ],
-  "languages": [],
   "url": "https://github.com/jackkerouac/animated-spell-effects-cartoon",
   "manifest": "https://github.com/jackkerouac/animated-spell-effects-cartoon/releases/download/latest/module.json",
-  "download": "https://github.com/jackkerouac/animated-spell-effects-cartoon/releases/download/latest/module.zip"
+  "download": "https://github.com/jackkerouac/animated-spell-effects-cartoon/releases/download/latest/module.zip",
+  "id": "animated-spell-effects-cartoon",
+  "authors": [
+    {
+      "name": "Jack Kerouac",
+      "flags": {}
+    }
+  ],
+  "compatibility": {
+    "minimum": "0.5.5",
+    "verified": "10.291"
+  }
 }

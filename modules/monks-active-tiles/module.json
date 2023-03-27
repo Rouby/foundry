@@ -6,8 +6,7 @@
     {
       "name": "IronMonk",
       "discord": "ironmonk88#4075",
-	  "patreon": "https://www.patreon.com/ironmonk",
-      "ko-fi": "https://ko-fi.com/ironmonk88"
+      "flags": {}
     }
   ],
   "socket": true,
@@ -15,17 +14,20 @@
     {
       "lang": "en",
       "name": "English",
-      "path": "lang/en.json"
+      "path": "lang/en.json",
+      "flags": {}
     },
     {
       "lang": "ja",
       "name": "日本語",
-      "path": "lang/ja.json"
+      "path": "lang/ja.json",
+      "flags": {}
     },
     {
       "lang": "fr",
       "name": "Français",
-      "path": "lang/fr.json"
+      "path": "lang/fr.json",
+      "flags": {}
     }
   ],
   "packs": [
@@ -34,7 +36,8 @@
       "label": "Active Tile Macros",
       "path": "packs/active-tile-macros.db",
       "type": "Macro",
-      "private": false
+      "private": false,
+      "flags": {}
     }
   ],
   "esmodules": [
@@ -51,13 +54,9 @@
   "download": "https://github.com/ironmonk88/monks-active-tiles/archive/10.12.zip",
   "manifest": "https://github.com/ironmonk88/monks-active-tiles/releases/latest/download/module.json",
   "bugs": "https://github.com/ironmonk88/monks-active-tiles/issues",
-  "allowBugReporter": true,
   "id": "monks-active-tiles",
   "compatibility": {
     "minimum": "10",
     "verified": "10"
-  },
-  "name": "monks-active-tiles",
-  "minimumCoreVersion": "10",
-  "compatibleCoreVersion": "10"
+  }
 }
