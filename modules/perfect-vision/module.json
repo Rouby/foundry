@@ -1,12 +1,12 @@
 {
   "id": "perfect-vision",
-  "name": "perfect-vision",
   "title": "Perfect Vision",
   "description": "Lighting Drawings and Vision Limitation.",
   "authors": [
     {
       "name": "dev7355608",
-      "email": "dev7355608@gmail.com"
+      "email": "dev7355608@gmail.com",
+      "flags": {}
     }
   ],
   "version": "4.1.19",
@@ -15,7 +15,6 @@
     "verified": "10.291",
     "maximum": "10"
   },
-  "minimumCoreVersion": "10",
   "scripts": [
     "libs/glsl-optimizer.js",
     "libs/sskelmesh.js",
@@ -32,14 +31,16 @@
     {
       "lang": "en",
       "name": "English",
-      "path": "lang/en.json"
+      "path": "lang/en.json",
+      "flags": {}
     }
   ],
   "relationships": {
     "requires": [
       {
         "id": "lib-wrapper",
-        "type": "module"
+        "type": "module",
+        "compatibility": {}
       }
     ]
   },

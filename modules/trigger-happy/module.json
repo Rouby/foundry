@@ -86,8 +86,5 @@
   "download": "https://github.com/League-of-Foundry-Developers/fvtt-module-trigger-happy/raw/v10/module.zip",
   "readme": "https://github.com/League-of-Foundry-Developers/fvtt-module-trigger-happy/blob/v10/README.md",
   "changelog": "https://github.com/League-of-Foundry-Developers/fvtt-module-trigger-happy/blob/v0.8.39/changelog.md",
-  "bugs": "https://github.com/League-of-Foundry-Developers/fvtt-module-trigger-happy/issues",
-  "compatibility": {
-    "minimum": "10"
-  }
+  "bugs": "https://github.com/League-of-Foundry-Developers/fvtt-module-trigger-happy/issues"
 }
